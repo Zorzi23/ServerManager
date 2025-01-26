@@ -1,0 +1,32 @@
+{
+    "name": "zorzi23/http_flow",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "A PHP library for managing HTTP flows, providing utilities for handling HTTP requests and responses.",
+    "autoload": {
+        "psr-4": {
+            "HttpFlow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Zorzi",
+            "email": "gustavozorzi2003@gmail.com"
+        }
+    ],
+    "require": {
+        "zorzi23/regex_flow": "1.0.0",
+        "zorzi23/object_flow": "1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zorzi23/ObjectFlow"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zorzi23/RegexFlow"
+        }
+    ]
+}

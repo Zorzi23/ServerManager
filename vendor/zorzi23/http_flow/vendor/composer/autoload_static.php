@@ -4,13 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e
+class ComposerStaticInit3e55c1d51009e3a5f8eb6f017c6c7a90
 {
     public static $prefixLengthsPsr4 = array (
-        'S' => 
-        array (
-            'ServerManager\\' => 14,
-        ),
         'R' => 
         array (
             'RegexFlow\\' => 10,
@@ -26,10 +22,6 @@ class ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e
     );
 
     public static $prefixDirsPsr4 = array (
-        'ServerManager\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'RegexFlow\\' => 
         array (
             0 => __DIR__ . '/..' . '/zorzi23/regex_flow/src',
@@ -40,7 +32,7 @@ class ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e
         ),
         'HttpFlow\\' => 
         array (
-            0 => __DIR__ . '/..' . '/zorzi23/http_flow/src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
@@ -51,9 +43,9 @@ class ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1ffc9efde1ae2205a151bd263a6c935e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3e55c1d51009e3a5f8eb6f017c6c7a90::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3e55c1d51009e3a5f8eb6f017c6c7a90::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3e55c1d51009e3a5f8eb6f017c6c7a90::$classMap;
 
         }, null, ClassLoader::class);
     }

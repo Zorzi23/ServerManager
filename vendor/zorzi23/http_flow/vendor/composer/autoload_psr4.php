@@ -6,8 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ServerManager\\' => array($baseDir . '/src'),
     'RegexFlow\\' => array($vendorDir . '/zorzi23/regex_flow/src'),
     'ObjectFlow\\' => array($vendorDir . '/zorzi23/object_flow/src'),
-    'HttpFlow\\' => array($vendorDir . '/zorzi23/http_flow/src'),
+    'HttpFlow\\' => array($baseDir . '/src'),
 );

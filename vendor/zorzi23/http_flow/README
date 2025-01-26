@@ -1,0 +1,60 @@
+# HttpFlow Library
+
+## Overview
+
+HttpFlow is a powerful PHP library designed for managing HTTP flows and interactions. It provides a robust framework for handling HTTP requests and responses with ease.
+
+## Features
+
+- **Easy HTTP Management**: Simplify the management of HTTP flows in your PHP applications.
+- **Integration with RegexFlow and ObjectFlow**: Seamlessly integrate with the RegexFlow and ObjectFlow libraries for advanced operations.
+- **PSR-4 Autoloading**: Follows PSR-4 standards for autoloading classes.
+- **Stable and Reliable**: Developed with stability and reliability in mind.
+
+## Installation
+
+To install HttpFlow, use Composer:
+
+```bash
+composer require zorzi23/http_flow
+```
+
+## Usage
+
+Here's a basic example of how to use HttpFlow in your project:
+
+```php
+require 'vendor/autoload.php';
+
+use HttpFlow\YourClass;
+
+// Your code here
+```
+
+## Requirements
+
+- PHP 7.4 or higher
+- Composer
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This library is open-source and licensed under the MIT License.
+
+## Author
+
+Gustavo Zorzi - [gustavozorzi2003@gmail.com](mailto:gustavozorzi2003@gmail.com)
+
+## Keywords
+
+- PHP
+- HTTP Flow
+- HTTP Management
+- PHP Library
+- Composer
+- RegexFlow
+- ObjectFlow
+- PSR-4

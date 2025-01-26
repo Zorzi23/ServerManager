@@ -1,12 +1,12 @@
 {
-    "name": "zorzi23/server_manager",
+    "name": "zorzi23/object_flow",
     "version": "1.0.0",
     "type": "library",
+    "description": "A PHP library for managing object flows and interactions.",
     "license": "MIT",
-    "description": "A PHP library for managing server configurations and operations.",
     "autoload": {
         "psr-4": {
-            "ServerManager\\": "src/"
+            "ObjectFlow\\": "src/"
         }
     },
     "authors": [
@@ -16,22 +16,12 @@
         }
     ],
     "require": {
-        "zorzi23/http_flow": "1.0.0",
-        "zorzi23/object_flow": "1.0.0",
         "zorzi23/regex_flow": "1.0.0"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Zorzi23/HttpFlow"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/Zorzi23/RegexFlow"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Zorzi23/ObjectFlow"
         }
     ],
     "prefer-stable": true

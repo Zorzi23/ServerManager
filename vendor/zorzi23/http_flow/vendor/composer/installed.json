@@ -1,49 +1,6 @@
 {
     "packages": [
         {
-            "name": "zorzi23/http_flow",
-            "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Zorzi23/HttpFlow.git",
-                "reference": "3c4665e2deacf2ac627f7ba1cfaf942b2e0001c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Zorzi23/HttpFlow/zipball/3c4665e2deacf2ac627f7ba1cfaf942b2e0001c3",
-                "reference": "3c4665e2deacf2ac627f7ba1cfaf942b2e0001c3",
-                "shasum": ""
-            },
-            "require": {
-                "zorzi23/object_flow": "1.0.0",
-                "zorzi23/regex_flow": "1.0.0"
-            },
-            "time": "2025-01-26T22:12:21+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "HttpFlow\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gustavo Zorzi",
-                    "email": "gustavozorzi2003@gmail.com"
-                }
-            ],
-            "description": "A PHP library for managing HTTP flows, providing utilities for handling HTTP requests and responses.",
-            "support": {
-                "source": "https://github.com/Zorzi23/HttpFlow/tree/1.0.0",
-                "issues": "https://github.com/Zorzi23/HttpFlow/issues"
-            },
-            "install-path": "../zorzi23/http_flow"
-        },
-        {
             "name": "zorzi23/object_flow",
             "version": "1.0.0",
             "version_normalized": "1.0.0.0",
