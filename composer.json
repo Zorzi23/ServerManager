@@ -1,0 +1,33 @@
+{
+    "name": "zorzi23/server_manager",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "description": "A PHP library for managing server configurations and operations.",
+    "autoload": {
+        "psr-4": {
+            "ServerManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Zorzi",
+            "email": "gustavozorzi2003@gmail.com"
+        }
+    ],
+    "require": {
+        "zorzi23/object_flow": "1.0.0",
+        "zorzi23/regex_flow": "1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zorzi23/RegexFlow"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zorzi23/ObjectFlow"
+        }
+    ],
+    "prefer-stable": true
+}

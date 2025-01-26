@@ -1,0 +1,87 @@
+{
+    "packages": [
+        {
+            "name": "zorzi23/object_flow",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zorzi23/ObjectFlow.git",
+                "reference": "b41f8a06c75c910da51f01e9c26661463a36a431"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zorzi23/ObjectFlow/zipball/b41f8a06c75c910da51f01e9c26661463a36a431",
+                "reference": "b41f8a06c75c910da51f01e9c26661463a36a431",
+                "shasum": ""
+            },
+            "require": {
+                "zorzi23/regex_flow": "1.0.0"
+            },
+            "time": "2025-01-26T21:56:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ObjectFlow\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavo Zorzi",
+                    "email": "gustavozorzi2003@gmail.com"
+                }
+            ],
+            "description": "A PHP library for managing object flows and interactions.",
+            "support": {
+                "source": "https://github.com/Zorzi23/ObjectFlow/tree/1.0.0",
+                "issues": "https://github.com/Zorzi23/ObjectFlow/issues"
+            },
+            "install-path": "../zorzi23/object_flow"
+        },
+        {
+            "name": "zorzi23/regex_flow",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zorzi23/RegexFlow.git",
+                "reference": "95b9d4cbc2e6f59a9e5296138dd3e3de33d3dc70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zorzi23/RegexFlow/zipball/95b9d4cbc2e6f59a9e5296138dd3e3de33d3dc70",
+                "reference": "95b9d4cbc2e6f59a9e5296138dd3e3de33d3dc70",
+                "shasum": ""
+            },
+            "time": "2025-01-26T21:36:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RegexFlow\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavo Zorzi",
+                    "email": "gustavozorzi2003@gmail.com"
+                }
+            ],
+            "description": "A library for handling regular expressions in PHP.",
+            "support": {
+                "source": "https://github.com/Zorzi23/RegexFlow/tree/1.0.0",
+                "issues": "https://github.com/Zorzi23/RegexFlow/issues"
+            },
+            "install-path": "../zorzi23/regex_flow"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

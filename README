@@ -1,0 +1,61 @@
+# PHP Server Manager Library
+
+## Overview
+
+This library provides a set of functions and utilities to manage server configurations and operations in PHP. It simplifies the process of configuring, starting, stopping, and monitoring servers.
+
+## Features
+
+- **Server Configuration**: Easily configure server settings.
+- **Server Operations**: Start, stop, and restart servers with simple commands.
+- **Monitoring**: Monitor server status and performance.
+- **Integration with ObjectFlow**: Seamlessly integrate with the ObjectFlow library for advanced object management.
+- **Integration with RegexFlow**: Utilize regular expressions for server log analysis and other tasks.
+
+## Installation
+
+To install this library, use Composer:
+
+```bash
+composer require zorzi23/server_manager
+```
+
+## Usage
+
+Here's a basic example of how to use the PHP Server Manager Library in your project:
+
+```php
+require 'vendor/autoload.php';
+
+use ServerManager\YourClass;
+
+// Your code here
+```
+
+## Requirements
+
+- PHP 7.4 or higher
+- Composer
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This library is open-source and licensed under the MIT License.
+
+## Author
+
+Gustavo Zorzi - [gustavozorzi2003@gmail.com](mailto:gustavozorzi2003@gmail.com)
+
+## Keywords
+
+- PHP
+- Server Management
+- Server Configuration
+- PHP Library
+- Composer
+- ObjectFlow
+- RegexFlow
+- PSR-4
