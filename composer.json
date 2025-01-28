@@ -20,19 +20,5 @@
         "zorzi23/object_flow": "1.0.0",
         "zorzi23/regex_flow": "1.0.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Zorzi23/HttpFlow"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Zorzi23/RegexFlow"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Zorzi23/ObjectFlow"
-        }
-    ],
     "prefer-stable": true
 }
